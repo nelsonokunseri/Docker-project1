@@ -9,8 +9,8 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build -t web:1 .
-      - docker tag web:1 380656369818.dkr.ecr.us-east-1.amazonaws.com/nelrocloud     
+      - docker build -t web:2 .
+      - docker tag web:2 380656369818.dkr.ecr.us-east-1.amazonaws.com/nelrocloud     
   post_build:
     commands:
       - echo Build completed on `date`
